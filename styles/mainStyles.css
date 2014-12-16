@@ -44,6 +44,11 @@ p2{
     margin: 20px;
 }
 
+.miniMainWrapper{
+    margin: 20px;
+    width: 762px;
+}
+
 .greenButton {
     border: 1px #57bd57 solid;
     background-color: #7bcc7c;
@@ -97,6 +102,11 @@ p2{
     color: #444444;
 }
 
+.tableQuestionRow {
+    height: 55px;
+    color: #444444;
+}
+
 .titleText{
     color: #000000;
     font-size: 22px;
@@ -142,4 +152,5 @@ p2{
 
 .blueLink{
     color: #709dd5;
+    text-decoration: underline;
 }
