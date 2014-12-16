@@ -1,0 +1,145 @@
+html{
+    font-family: 'corbel', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Bitstream Vera Sans',
+    'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
+}
+
+body{
+    height: 100%;
+    margin-top: 0;
+    min-width: 1024px;
+}
+
+table{
+    width: 100%;
+    border: none;
+}
+
+.mainCol{
+    width: 1024px;
+}
+
+.headWrapper{
+    height: 80px;
+    background-color: #7bcc7c;
+}
+
+h1{
+    position: absolute;
+    margin: 20px 20px 0 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+p1{
+    color: #000000;
+    font-size: 16px;
+}
+
+p2{
+    font-size: 14px;
+}
+
+.mainWrapper{
+    margin: 20px;
+}
+
+.greenButton {
+    border: 1px #57bd57 solid;
+    background-color: #7bcc7c;
+    color: white;
+    font-size: 12px;
+    height: 35px;
+    text-align: center;
+    padding: 0 18px 0 18px;
+    margin: 30px 30px 0 0;
+}
+
+
+.greenButton:disabled{
+    border: solid 1px #d9d9d9;
+    background: #f2f2f2;
+    color: #9b9b9b;
+    font-size: 12px;
+    height: 35px;
+    text-align: center;
+    padding: 0 18px 0 18px;
+    margin: 30px 30px 0 0;
+}
+
+.simpleTextarea {
+    width: 150px;
+    height: 25px;
+    color: #000000;
+    border: solid 1px #d9d9d9;
+    margin: 0 0 10px 20px;
+}
+
+.miniSimpleTextarea{
+    width: 50px;
+    height: 25px;
+    color: #000000;
+    border: solid 1px #d9d9d9;
+    margin: 10px 0 0 0;
+}
+
+#approvalTable{
+    margin-top: 30px;
+}
+
+.tableHeadRow {
+    min-height: 40px;
+    color: #909090;
+}
+
+.tableContentRow{
+    min-height: 40px;
+    color: #444444;
+}
+
+.titleText{
+    color: #000000;
+    font-size: 22px;
+    line-height: 70px;
+}
+
+.grayText {
+    color: #909090;
+}
+
+.errorMessage {
+    color: #fd3f3f;
+}
+
+.errorMessage_hidden{
+    display: none;
+}
+
+.bigRadioCol {
+    width: 500px;
+    text-align: left;
+    font-size: 14px;
+    padding: 20px 0 20px 0;
+}
+
+.normalRadioCol {
+    width: 250px;
+    text-align: left;
+    font-size: 14px;
+    padding: 20px 0 20px 0;
+}
+
+.miniRadioCenterCol {
+    width: 75px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.miniRadioLeftCol {
+    width: 75px;
+    text-align: left;
+}
+
+.blueLink{
+    color: #709dd5;
+}
